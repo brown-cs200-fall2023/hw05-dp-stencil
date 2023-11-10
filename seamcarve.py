@@ -10,8 +10,8 @@ The code in this file does the following:
 '''
 from importance_calculator import ImportanceCalculator
 
-# NOTE:  If you get module/import errors here, make sure you're using the
-# cs200-env conda environment.  See the Stencil Setup Guide for 
+# NOTE:  If you get module/import errors here, make you have 
+# set up your environment.  See the Stencil Setup Guide for 
 # instructions and resources.
 from PIL import Image
 import numpy as np
