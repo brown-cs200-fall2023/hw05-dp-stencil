@@ -180,7 +180,7 @@ if __name__ == "__main__":
         r, c, k = carved_array.shape
 
         # make a mask of pixels to remove
-        mask = np.ones((r, c), dtype=np.bool)
+        mask = np.ones((r, c), dtype=bool)
 
         # deal with seam not found case
         if seam is None:
